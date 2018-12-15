@@ -108,5 +108,8 @@
     <ClCompile Include="1676.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="커밋 테스트.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
