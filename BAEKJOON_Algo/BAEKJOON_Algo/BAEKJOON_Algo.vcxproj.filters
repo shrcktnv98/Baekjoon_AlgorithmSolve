@@ -111,5 +111,29 @@
     <ClCompile Include="커밋 테스트.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1100.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2439.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2108.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1330.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1453.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2309.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2420.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2346.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

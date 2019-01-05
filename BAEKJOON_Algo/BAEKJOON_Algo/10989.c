@@ -1,25 +1,22 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int main(void) {
-	int test = 0;
-	scanf("%d", &test);
-	int *num = (int*)malloc(sizeof(int)*test+1);
-	for (int i = 0; i < test; i++) {
-		scanf("%d", &num[i]);
+	int arr[10001] = { 0 };
+	int num = 0;
+	scanf("%d", &num);
+	int a = 0;
+	for (int i = 0; i < num; i++) {
+		scanf("%d", &a);
+		arr[a]++;
 	}
-	for (int i = 0; i < test; i++) {
-		for (int j = i; j < test; j++) {
-			if (num[i] > num[j]) {
-				int temp = num[i];
-				num[i] = num[j];
-				num[j] = temp;
+	printf("=====\n=====\n");
+	for (int i = 0; i <= 10000; i++) {
+		if (arr[i] != 0) {
+			for (int j = 0; j < arr[i]; j++) {
+				printf("%d\n", i);
 			}
 		}
 	}
-	for (int i = 0; i < test; i++) {
-		printf("%d\n", num[i]);
-	}
-	free(num);
 	system("pause");
 	return 0;
 }
